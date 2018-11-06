@@ -1,7 +1,8 @@
-#include<stdio.h>
-int main(){
-	int y;
-	y=3*5,y*4;
-	printf("%d",y);
-	return 0;
-} 
+#include <stdio.h>
+
+int main() { 
+   int a,b;
+   scanf("%d %d",&a,&b);
+   printf("%d",a*a+b*b);
+   return 0;
+}
